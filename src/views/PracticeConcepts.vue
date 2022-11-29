@@ -4,7 +4,6 @@
         <button @click="increment">
           {{ count }}
         </button>
-        <p>{{ token }}</p>
     </div>
 
 

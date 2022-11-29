@@ -100,9 +100,7 @@
                         </div>
                     </div>
 
-                    <input class="btn btn-primary rounded bg-white" type="search" name="" id="" placeholder="Search here">
-
-                        
+                    <!-- <input class="btn btn-primary rounded bg-white" type="search" name="" id="" placeholder="Search here"> -->
                     <!-- <a v-if="store.user" class="ml-4 mt-1 btn btn-secondary btn-sm" @click="logout">Logout</a> -->
                 </ul>                       
             </div>
@@ -153,16 +151,16 @@ export default {
  
 
     .router-link-exact-active{
-        background-color: rgb(72, 49, 175);
+        background-color: rgb(11 238 251);
         padding: 7px;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         color: white;
     }
 
     .router-link-exact-active:hover, nav-item:hover{
-        background-color: rgb(34, 4, 165);
-        padding: 7px;
-        border-radius: 8px;
+        background-color: rgb(11 238 251);
+        /* padding: 7px; */
+        /* border-radius: 8px; */
         color: white;
     }
 

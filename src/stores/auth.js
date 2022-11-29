@@ -39,10 +39,7 @@ export const useAuthStore = defineStore('authStoreId', {
               // location.href = '/dashboard';
           })
           .catch(e => {
-            console.log('heee');
-            console.log(e.response);
             if (e.response.status == 401) {
-              alert(e.response.statusText)
               router.push('/login');
 
             }
